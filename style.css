@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat";
+    
+}
+
+body {
+    background-color: whitesmoke;
+}
+
+nav a {
+    color:white;
+}
+
+.jumbotron {
+    background: url('https://images.unsplash.com/photo-1470214203634-e436a8848e23?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjF9&auto=format&fit=crop&w=2691&q=80') center center no-repeat;
+    background-size: cover;
+    height: 25em;
+}
+
+.logo {
+    font-family: 'Long Cang', serif;
+    font-size: 1.5em;
+} 
+
+.title1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    font-size: 3em;
+    margin-top: 0px;
+}
+
+.title2 {
+    font-family: 'Montserrat';
+    color: yellow;
+    font-size: 3em;
+    font-weight: 500;
+}
+
+.title3 {
+    margin: auto;
+    font-size: 1.5em;
+    color: rgb(255, 255, 255);
+    max-width: 600px;
+    /* margin-left: 200px */
+
+}
+
+strong {
+    color: rgb(255, 174, 0);
+}
+
+#fly {
+    margin: 0px, 0px;
+}
+
+/* 
+.text-pub {
+    text-align: center;
+    max-width: 300px;
+} */
+
+.avis div{
+    quotes: "«" "»";
+    height: 130px;
+    margin: 10px;
+    padding: 10px;
+    border: 0.5 solid grey;
+    
+}
+
+.avis q { 
+    font-size: 1.2em;
+    padding: 10px;
+    text-align: left;
+    overflow: hidden;
+    width: 70%;
+}
+
+.logo-user {
+    width: 30%;
+}
+.img-icon {
+    height: 30%;
+    width: auto;
+    padding-top: 0;
+}
+
+#fond{
+    height: 200px;
+}
+
+.pub {
+    display: flex;
+    flex-direction: row;
+}
+
+@media screen and (max-width: 900px ) {
+    .pub {
+        display: flex;
+        flex-flow: row wrap;
+    }
+}
+
+q {
+    font-size: 1em;
+}
+
+.nom-com {
+    color: rgb(255, 174, 0);
+}
+
+.img-item {
+    width: 40px;
+    height: 30px;
+}
+
+.img-com {
+    text-align: center;
+}
+
+#btn-form {
+    margin-top: 1em;
+    margin-bottom: 2em;
+}
+
+#btn-form:hover {
+    background-color:red;
+}
+footer {
+    height: 10em;
+    background-color: rgb(95, 94, 94);
+}
+
+footer p {
+    font-size: 1.1em;
+}
